@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.pr.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "pr.refmap.json",
+  "mixins": [
+    "ConnectionMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
